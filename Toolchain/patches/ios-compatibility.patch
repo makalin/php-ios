@@ -1,0 +1,12 @@
+--- a/main/php.h
++++ b/main/php.h
+@@ -1,5 +1,9 @@
+ #ifndef PHP_H
+ #define PHP_H
++
++/* iOS compatibility fixes */
++#define HAVE_DLOPEN 0
++#define HAVE_DLFCN_H 0
+ 
+ #ifdef PHP_WIN32
+ # include "config.w32.h"

@@ -1,0 +1,15 @@
+--- a/Zend/zend_dl.c
++++ b/Zend/zend_dl.c
+@@ -1,5 +1,7 @@
+ #include "zend.h"
+ 
++/* Disable dynamic loading on iOS */
++#if 0
+ #ifdef HAVE_DLOPEN
+ # include <dlfcn.h>
+ #endif
+@@ -50,3 +52,4 @@ ZEND_API void *zend_dlopen(const char *filename)
+ 	return dlopen(filename, RTLD_LAZY);
+ }
+ #endif
++#endif

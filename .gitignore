@@ -1,0 +1,357 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*/.DS_Store
+*.DS_Store
+
+# Xcode
+*.xcodeproj/
+*.xcodeproj
+*.xcworkspace/
+*.xcworkspace
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+.swiftpm/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Swift
+*.swp
+*.swiftc
+*.swiftmodule
+*.swiftdoc
+*.swiftinterface
+
+# PHP
+*.php~
+*.php.bak
+*.php.orig
+*.php.swp
+*.php.swo
+*~
+.phpunit.result.cache
+vendor/
+composer.lock
+composer.phar
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.ipa
+*.dSYM/
+*.framework/
+*.bundle/
+
+# C/C++/Objective-C
+*.obj
+*.pch
+*.gch
+*.d
+*.map
+*.sym
+
+# Libraries and frameworks
+lib/
+libs/
+frameworks/
+Frameworks/
+*.framework/
+*.dylib
+*.a
+*.so
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.vim/
+*.vim
+*.vimrc
+
+# Node.js (if any build tools use it)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+package-lock.json
+yarn.lock
+
+# Python (if any build tools use it)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+
+# Ruby (if any build tools use it)
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+.bundle/
+vendor/bundle
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# iOS specific
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.app
+*.app.dSYM
+*.xcarchive
+
+# Android specific (if any cross-platform tools)
+*.apk
+*.aab
+*.dex
+*.class
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.swp
+*.swo
+*~
+
+# Archive files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Security and sensitive files
+*.pem
+*.key
+*.crt
+*.p12
+*.mobileprovision
+*.entitlements
+
+# Documentation build
+docs/_build/
+site/
+
+# Test results
+test-results/
+coverage/
+*.coverage
+.coverage
+htmlcov/
+
+# Profiling data
+*.prof
+
+# Local configuration
+local.properties
+local.yml
+local.yaml
+local.json
+
+# Build configuration
+build.properties
+build.yml
+build.yaml
+
+# Custom build scripts output
+build/
+dist/
+out/
+target/
+
+# Package managers
+Pods/
+Podfile.lock
+Cartfile.resolved
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Code signing
+*.p12
+*.mobileprovision
+*.cer
+*.certSigningRequest
+
+# App Store Connect
+*.itmsp
+
+# Simulator
+*.simulator
+
+# Instruments
+*.trace
+
+# Memory and performance
+*.hprof
+*.prof
+
+# Custom project specific
+# Add any project-specific patterns here
